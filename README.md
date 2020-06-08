@@ -1,16 +1,16 @@
 ## dnmp-centos
 >
-> 基于CentOS最新的CentOS-8作为基础镜像
+> 基于 CentOS 最新的 CentOS-8 作为基础镜像
 >
 > 源码编写安装 Nginx dockerfile 及 PHP dockerfile
 >
-> 并使用 docker-compose进行编排
+> 并使用 docker-compose 进行编排
 > 
 > PHP基础扩展 PDO-MySQL + PDO-PgSQL + OpenSSL + Mbstring + Curl + Iconv + XML + Ctype + JSon + BCmath
 > 
 > 编译安装 swoole + Redis + mongoDB + rabbitMQ + amqp
 >
-> 同时完美解决 docker 下，cronTab的使用及supervisor使用问题
+> 同时完美解决 docker 下，cronTab 的使用及 supervisor 使用问题
 >
 
 
