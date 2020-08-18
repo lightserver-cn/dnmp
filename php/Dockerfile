@@ -9,8 +9,9 @@ RUN curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Cen
 RUN dnf makecache \
     && dnf -y update
 
-RUN dnf -y --enablerepo=PowerTools --nogpgcheck install boost-static \
-    dnf -y groupinstall 'Development Tools' --nogpgcheck
+# fixed Unable to find a match: groupinstall Development Tools
+# RUN dnf -y --enablerepo=PowerTools --nogpgcheck install boost-static \
+#    dnf -y groupinstall 'Development Tools' --nogpgcheck
 
 RUN dnf -y install \
     autoconf \
